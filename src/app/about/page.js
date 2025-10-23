@@ -1,19 +1,20 @@
 import ButtonSample from "../../components/ui/ButtonSample";
-import CardSampleSample from "../../components/ui/CardSample";
+import CardSample from "../../components/ui/CardSample";
+import TwoColumnSample from "../../components/layout/TwoColumnSample";
 
 export default function About() {
   const boxClass = "box";
 
   return (
-    <>
+    <TwoColumnSample>
       <div className={boxClass}>
         <p style={{ color: "#333", backgroundColor: "pink" }}>
           This is the about page.
         </p>
         <ButtonSample text="button" type="button" />
         <hr />
-        <CardSampleSample />
+        <CardSample />
       </div>
-    </>
+    </TwoColumnSample>
   );
 }
