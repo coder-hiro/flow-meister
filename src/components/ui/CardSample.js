@@ -6,7 +6,7 @@ export default function CardSample() {
       <p style={{ color: "#333", backgroundColor: "orange" }}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       </p>
-      <ButtonSample />
+      <ButtonSample text="submit" type="submit" />
     </div>
   );
 }

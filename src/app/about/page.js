@@ -10,7 +10,7 @@ export default function About() {
         <p style={{ color: "#333", backgroundColor: "pink" }}>
           This is the about page.
         </p>
-        <ButtonSample />
+        <ButtonSample text="button" type="button" />
         <hr />
         <CardSampleSample />
       </div>
